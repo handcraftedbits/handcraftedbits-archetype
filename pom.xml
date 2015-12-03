@@ -29,7 +29,7 @@
   <name>HandcraftedBits Archetype (Parent)</name>
   <description>A collection of Maven Archetypes for HandcraftedBits projects</description>
   <url>https://github.com/handcraftedbits/handcraftedbits-archetype</url>
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
   <inceptionYear>2015</inceptionYear>
 
   <parent>
