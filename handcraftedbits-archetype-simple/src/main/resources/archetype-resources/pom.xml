@@ -1,0 +1,29 @@
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  
+  <groupId>\${groupId}</groupId>
+  <artifactId>\${artifactId}</artifactId>
+  <packaging>jar</packaging>
+  <name>\${name}</name>
+  <description>\${description}</description>
+  <url>https://github.com/handcraftedbits/\${artifactId}</url>
+  <version>\${version}</version>
+  <inceptionYear>\${inceptionYear}</inceptionYear>
+
+  <parent>
+    <groupId>com.handcraftedbits</groupId>
+    <artifactId>handcraftedbits-parent</artifactId>
+    <version>1.0.4</version>
+  </parent>
+
+  <scm>
+    <url>https://github.com/handcraftedbits/\${artifactId}</url>
+    <connection>scm:git:git://github.com/handcraftedbits/\${artifactId}.git</connection>
+    <developerConnection>scm:git:git@github.com:handcraftedbits/\${artifactId}.git</developerConnection>
+  </scm>
+  <issueManagement>
+    <url>https://github.com/handcraftedbits/\${artifactId}/issues</url>
+    <system>GitHub Issues</system>
+  </issueManagement>
+</project>
