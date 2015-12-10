@@ -14,13 +14,13 @@
   <parent>
     <groupId>com.handcraftedbits</groupId>
     <artifactId>handcraftedbits-parent</artifactId>
-    <version>1.0.4</version>
+    <version>1.1.0</version>
   </parent>
 
   <scm>
     <url>https://github.com/handcraftedbits/\${artifactId}</url>
     <connection>scm:git:git://github.com/handcraftedbits/\${artifactId}.git</connection>
-    <developerConnection>scm:git:git@github.com:handcraftedbits/\${artifactId}.git</developerConnection>
+    <developerConnection>scm:git:git@github.com:handcraftedbits/${artifactId}.git</developerConnection>
   </scm>
   <issueManagement>
     <url>https://github.com/handcraftedbits/\${artifactId}/issues</url>
