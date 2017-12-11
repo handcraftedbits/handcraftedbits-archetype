@@ -29,7 +29,7 @@
 
   <parent>
     <groupId>com.handcraftedbits</groupId>
-    <artifactId>handcraftedbits-parent</artifactId>
+    <artifactId>handcraftedbits-parent-java</artifactId>
     <version>1.2.5</version>
   </parent>
 
@@ -42,4 +42,43 @@
     <url>https://github.com/handcraftedbits/\${artifactId}/issues</url>
     <system>GitHub Issues</system>
   </issueManagement>
+  
+  <properties>
+    <version.dep.aws>1.11.246</version.dep.aws>
+    
+    <version.plugin.shade>3.1.0</version.plugin.shade>
+  </properties>
+  
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.amazonaws</groupId>
+        <artifactId>aws-java-sdk-bom</artifactId>
+        <version>${version.dep.aws}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+  
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-shade-plugin</artifactId>
+        <version>${version.plugin.shade}</version>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>shade</goal>
+            </goals>
+            <configuration>
+              <createDependencyReducedPom>false</createDependencyReducedPom>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
 </project>

@@ -19,10 +19,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   
-  <artifactId>handcraftedbits-archetype-java</artifactId>
+  <artifactId>handcraftedbits-archetype-aws</artifactId>
   <packaging>maven-archetype</packaging>
-  <name>HandcraftedBits Archetype (Java)</name>
-  <description>A Maven Archetype for HandcraftedBits Java Projects</description>
+  <name>HandcraftedBits Archetype (AWS)</name>
+  <description>A Maven Archetype for HandcraftedBits AWS Projects</description>
   <url>https://github.com/handcraftedbits/handcraftedbits-archetype</url>
   <inceptionYear>2015</inceptionYear>
 
