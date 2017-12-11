@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  Copyright (C) 2015-2016 HandcraftedBits
+  Copyright (C) 2015-2017 HandcraftedBits
 
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -31,7 +31,7 @@
   <parent>
     <groupId>com.handcraftedbits</groupId>
     <artifactId>handcraftedbits-parent</artifactId>
-    <version>1.2.4</version>
+    <version>1.2.5</version>
   </parent>
 
   <scm>
@@ -45,11 +45,12 @@
   </issueManagement>
   
   <properties>
-    <version.plugin.archetype>2.4</version.plugin.archetype>
-    <version.plugin.resources>2.6</version.plugin.resources>
+    <version.plugin.archetype>3.0.1</version.plugin.archetype>
+    <version.plugin.resources>3.0.2</version.plugin.resources>
   </properties>
   
   <modules>
+    <module>handcraftedbits-archetype-aws</module>
     <module>handcraftedbits-archetype-java</module>
     <module>handcraftedbits-archetype-simple</module>
   </modules>
