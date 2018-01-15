@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  Copyright (C) 2015-2017 HandcraftedBits
+  Copyright (C) 2015-2018 HandcraftedBits
 
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -31,14 +31,4 @@
     <artifactId>handcraftedbits-archetype</artifactId>
     <version>1.0.9-SNAPSHOT</version>
   </parent>
-  
-  <scm>
-    <url>https://github.com/handcraftedbits/handcraftedbits-archetype</url>
-    <connection>scm:git:git://github.com/handcraftedbits/handcraftedbits-archetype.git</connection>
-    <developerConnection>scm:git:git@github.com:handcraftedbits/handcraftedbits-archetype.git</developerConnection>
-  </scm>
-  <issueManagement>
-    <url>https://github.com/handcraftedbits/handcraftedbits-archetype/issues</url>
-    <system>GitHub Issues</system>
-  </issueManagement>
 </project>
