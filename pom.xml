@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  Copyright (C) 2015-2017 HandcraftedBits
+  Copyright (C) 2015-2018 HandcraftedBits
 
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -25,13 +25,13 @@
   <name>HandcraftedBits Archetype (Parent)</name>
   <description>A collection of Maven Archetypes for HandcraftedBits projects</description>
   <url>https://github.com/handcraftedbits/handcraftedbits-archetype</url>
-  <version>1.0.8</version>
+  <version>1.0.9</version>
   <inceptionYear>2015</inceptionYear>
 
   <parent>
     <groupId>com.handcraftedbits</groupId>
     <artifactId>handcraftedbits-parent</artifactId>
-    <version>1.2.6</version>
+    <version>1.2.8</version>
   </parent>
 
   <scm>
