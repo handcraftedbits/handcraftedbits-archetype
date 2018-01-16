@@ -36,7 +36,7 @@
   <scm>
     <url>https://github.com/handcraftedbits/\${artifactId}</url>
     <connection>scm:git:git://github.com/handcraftedbits/\${artifactId}.git</connection>
-    <developerConnection>scm:git:git@github.com:handcraftedbits/${artifactId}.git</developerConnection>
+    <developerConnection>scm:git:git@github.com:handcraftedbits/\${artifactId}.git</developerConnection>
   </scm>
   <issueManagement>
     <url>https://github.com/handcraftedbits/\${artifactId}/issues</url>
