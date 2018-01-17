@@ -25,13 +25,13 @@
   <name>HandcraftedBits Archetype (Parent)</name>
   <description>A collection of Maven Archetypes for HandcraftedBits projects</description>
   <url>https://github.com/handcraftedbits/handcraftedbits-archetype</url>
-  <version>1.0.9</version>
+  <version>1.0.10</version>
   <inceptionYear>2015</inceptionYear>
 
   <parent>
     <groupId>com.handcraftedbits</groupId>
     <artifactId>handcraftedbits-parent</artifactId>
-    <version>1.2.8</version>
+    <version>1.2.9</version>
   </parent>
 
   <scm>
