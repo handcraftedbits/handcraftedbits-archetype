@@ -29,6 +29,7 @@
     <fileSet filtered="true" encoding="utf-8">
       <directory></directory>
       <includes>
+        <include>.editorconfig</include>
         <include>.gitattributes</include>
         <include>.gitignore</include>
         <include>LICENSE</include>
