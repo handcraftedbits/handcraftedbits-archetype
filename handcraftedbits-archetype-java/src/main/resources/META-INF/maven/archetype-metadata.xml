@@ -29,8 +29,10 @@
     <fileSet filtered="true" encoding="utf-8">
       <directory></directory>
       <includes>
+        <include>.editorconfig</include>
         <include>.gitattributes</include>
         <include>.gitignore</include>
+        <include>.travis.yml</include>
         <include>LICENSE</include>
         <include>README.md</include>
       </includes>

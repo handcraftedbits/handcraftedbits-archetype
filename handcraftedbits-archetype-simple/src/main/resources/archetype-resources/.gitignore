@@ -1,10 +1,7 @@
-.idea/
 .settings/
-bin/
 target/
 
-.DS_Store
 .checkstyle
 .classpath
+.fbExcludeFilterFile
 .project
-*.iml
