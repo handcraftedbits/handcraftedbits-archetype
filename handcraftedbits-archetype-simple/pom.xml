@@ -29,6 +29,6 @@
   <parent>
     <groupId>com.handcraftedbits.archetype</groupId>
     <artifactId>handcraftedbits-archetype</artifactId>
-    <version>1.1.4</version>
+    <version>1.1.5</version>
   </parent>
 </project>
