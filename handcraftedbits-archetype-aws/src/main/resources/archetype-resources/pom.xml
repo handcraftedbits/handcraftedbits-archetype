@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  Copyright (C) 2015-2018 HandcraftedBits
+  Copyright (C) 2015-2020 HandcraftedBits
 
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -30,7 +30,7 @@
   <parent>
     <groupId>com.handcraftedbits</groupId>
     <artifactId>handcraftedbits-parent-java</artifactId>
-    <version>1.3.8</version>
+    <version>1.4.0</version>
   </parent>
 
   <scm>
@@ -44,9 +44,9 @@
   </issueManagement>
   
   <properties>
-    <version.dep.aws>1.11.246</version.dep.aws>
+    <version.dep.aws>1.11.861</version.dep.aws>
     
-    <version.plugin.shade>3.1.0</version.plugin.shade>
+    <version.plugin.shade>3.2.4</version.plugin.shade>
   </properties>
   
   <dependencyManagement>
