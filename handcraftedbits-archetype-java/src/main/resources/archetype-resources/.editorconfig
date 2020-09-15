@@ -1,7 +1,11 @@
+[*]
+end_of_line = lf
+insert_final_newline = true
+
 [*.java]
 indent_size = 5
 indent_style = space
 
-[*.xml]
+[*.{json,xml}]
 indent_size = 2
 indent_style = space
